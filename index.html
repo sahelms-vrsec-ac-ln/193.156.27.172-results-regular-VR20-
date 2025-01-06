@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>182.156.2.1</title>
+    <style>
+        body {
+            background: url("image2.png") no-repeat center center fixed;
+            background-size: cover;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .hidden-link {
+            text-decoration: none; 
+            color: transparent; 
+            position: absolute;
+            top: 37%; 
+            left: 48%; 
+            width: 200px;
+            height: 50px;
+        }
+        .hidden-link:hover {
+            color: rgb(0, 0, 0); 
+            text-decoration: underline; 
+        }
+
+        textarea {
+            position: absolute;
+            top: 29.45%; 
+            left: 51.4%; 
+            width: 176px;
+            height: 16.5px;
+        }
+
+        @media (max-width: 768px) {
+            .hidden-link {
+                top: 36%; /* Adjust positioning for smaller screens */
+                left: 72%;
+                transform: translate(-50%, -50%);
+                width: 150px;
+                height: 40px;
+            }
+
+            textarea {
+                top: 31%;
+                left: 74%;
+                transform: translate(-50%, -50%);
+                width: 38%; /* Expand textarea for better usability */
+                height: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <textarea maxlength="11" ></textarea>
+    <a href="https://diplomatic-need-653722.framer.app/" class="hidden-link">hidden link</a>
+</body>
+</html>
